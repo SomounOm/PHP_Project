@@ -1,7 +1,6 @@
 <?php require_once('partial/header.php'); ?>
-<?php require_once('partial/navebar.php'); ?>
     <div class="container p-4">
-        <form action="createfood_model.php" method="POST">
+        <form action="createfood_model.php" method="POST"​ enctype="multipart/form-data"​​​​​​​​>
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="foodname..." name="name">
             </div>
@@ -9,7 +8,7 @@
                 <input type="number" class="form-control" placeholder="price...." name="price">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="image..." name="image">
+                <input type="file" class="form-control" placeholder="image..." name="file">
             </div>
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="country..." name="country">
@@ -22,4 +21,4 @@
             </div>
         </form>
     </div>
-<?php require_once('partial/footer.php'); ?>
+

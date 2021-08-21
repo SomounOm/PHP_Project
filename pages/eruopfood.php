@@ -2,12 +2,12 @@
     <div class="row mt-3">
         <?php
             require_once('database/database.php');
-            $data = getfood();
+            $data = geteroup();
             foreach($data as $value):
         ?>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-3">
             <div class="card mb-3">
-                <img class="card-img" src="<?= $value['image']?>" alt="" style="width:100%; height:230px;">
+                <img class="card-img hvr-grow" src="image/<?= $value['image']?>" alt="" style="width:100%; height:230px;">
                 <div class="card-body">
                     <h5 class="card-title">Name: <?= $value['name']?></h5>
                     <p class="card-text">Price: <?= $value['price']?></p>

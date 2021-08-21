@@ -1,6 +1,5 @@
 
-<div class="container">
-
+<div class="container p-1">
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-secondary text-white">
     <!-- Section: Social media -->
@@ -176,3 +175,4 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>
+

@@ -1,1 +1,4 @@
-<img src="https://cdn.mos.cms.futurecdn.net/PuXipAW3AXUzUJ4uYyxPKC-1200-80.jpg" alt="" style="width: 100%;">
+
+<div class="container">
+    <img src="http://unblast.com/wp-content/uploads/2019/06/404-Error-Page-Donut-Template.jpg" alt="" style="width: 100%;">
+</div>
